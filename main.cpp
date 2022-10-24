@@ -4,7 +4,6 @@ int main ()
 {
     Destructible shield{"Shield", 10, Type::january};
 
-
     std::cout << shield << "\n";
     ++shield;
     std::cout << shield << "\n";
